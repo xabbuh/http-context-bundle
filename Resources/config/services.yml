@@ -1,0 +1,10 @@
+services:
+  openroot.httpContext.service:
+    class: Openroot\Bundle\HttpContextBundle\Service\HttpContextService
+    arguments: []
+
+  openroot.httpContext.requestSubscriber:
+    class: Openroot\Bundle\HttpContextBundle\Events\RequestSubscriber
+    arguments: [@openroot.httpContext.service]
+    tags:
+      - { name: kernel.event_subscriber }
