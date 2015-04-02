@@ -1,7 +1,10 @@
 {
   "name": "openroot/http-context-bundle",
   "description": "Define a context based on the http-host and -port",
-  "keywords": ["http", "context"],
+  "keywords": [
+    "http",
+    "context"
+  ],
   "type": "bundle",
   "license": "MIT",
   "authors": [
