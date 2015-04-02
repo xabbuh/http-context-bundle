@@ -34,7 +34,7 @@ class Context
      */
     public function __toString()
     {
-        return $this->getHost();
+        return sprintf('%s:%s', $this->getHost(), $this->getPort());
     }
 
     /**
