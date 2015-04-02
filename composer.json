@@ -1,0 +1,21 @@
+{
+  "name": "openroot/http-context-bundle",
+  "description": "Define a context based on the http-host and -port",
+  "keywords": ["http", "context"],
+  "type": "bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simon Schröer",
+      "email": "code@sweikenb.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "symfony/symfony": ">=2.3,<3.0"
+  },
+  "autoload": {
+    "psr-0": {"Openroot\\Bundle\\HttpContextBundle": ""}
+  },
+  "target-dir": "Openroot/Bundle/HttpContextBundle"
+}
